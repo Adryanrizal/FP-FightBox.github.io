@@ -1,0 +1,167 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: #141414;
+}
+
+a {
+  transition: 0.3s;
+}
+a:hover {
+  font-weight: bold;
+}
+
+/*================================================================== Navbar Start ======================*/
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 11;
+    width: 100vw;
+  }
+  .logo {
+    position: relative;
+    right: 14%;
+    bottom: 11%;
+  }
+  .logo p {
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    margin-left: 40px;
+  }
+  .navlinks {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 15%;
+    z-index: 10;
+  }
+  .navbar ul {
+    display: flex;
+  }
+  .navbar ul li {
+    list-style: none;
+    padding-right: 40px;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .navbtn {
+    background-color: transparent;
+    border: none;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 37px;
+    padding: 8px 24px;
+    margin-top: 8px;
+    background-color: transparent;
+    transition: 0.3s;
+  }
+  .navbtn:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  /*================================================================== Navbar end ======================*/
+  /*================================================================== landing Start ======================*/
+  
+  .text-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .text-isi{
+    width: 800px;
+    height: auto;
+    margin-left: 72px;
+    margin-top: 64px;
+    color: white;
+  }
+  .sub-judul{
+    color: rgb(173, 173, 173);
+  }
+  .banner {
+    width: 800px;
+    height: 400px;
+    margin-top: 64px;
+    background-image: url("images/Blog/Blog-3.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .text-isi2{
+    line-height: 180%;
+    letter-spacing: 3%;
+    margin-top: 64px;
+  }
+  .sub{
+    margin-top: 24px;
+  }
+  .sub-text{
+    line-height: 180%;
+    letter-spacing: 3%;
+  }
+ 
+h1{
+  font-size: 28px;
+}
+.sumber{
+  color: purple;
+}
+  .footer {
+    margin-top: 64px;
+    width: 100%;
+    height: 480px;
+    background-color: black;
+  }
+  .kelompok {
+    width: 500px;
+    padding-top: 32px;
+    margin-left: 40px;
+  }
+  .kelompok h4 {
+    font-size: 24px;
+    color: white;
+  }
+  .kelompok h5 {
+    font-size: 18px;
+    color: white;
+  }
+  .kelompok ul li {
+    list-style: none;
+  }
+  .kelompok p {
+    font-size: 16px;
+    color: white;
+    padding-bottom: 8px;
+  }
+  .footer .navlinks {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 71%;
+    left: 25%;
+  }
+  .footer .navlinks ul {
+    display: flex;
+  }
+  .footer .navlinks ul li {
+    list-style: none;
+    padding-right: 40px;
+  }
+  .footer .navlinks ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  

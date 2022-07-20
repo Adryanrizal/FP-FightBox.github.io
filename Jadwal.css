@@ -1,0 +1,198 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: #141414;
+}
+
+.container {
+  width: 100%;
+}
+a {
+  transition: 0.3s;
+}
+a:hover {
+  font-weight: bold;
+}
+
+/*================================================================== Navbar Start ======================*/
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 11;
+  width: 100%;
+}
+.logo {
+  position: relative;
+  right: 13%;
+  bottom: 11%;
+}
+.logo p {
+  font-weight: 800;
+  color: white;
+  font-size: 24px;
+}
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+.navlinks {
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  left: 15%;
+  z-index: 10;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  padding-right: 40px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbtn {
+  background-color: transparent;
+  border: none;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 37px;
+  padding: 8px 24px;
+  margin-top: 8px;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.navbtn:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+/*================================================================================= Navbar-End ==============*/
+/*================================================================== jadwal Start ======================*/
+.image-container {
+  background-image: url("images/Blog/banner-blog.jpg");
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-container h1 {
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+.jadwal-container{
+  width: 100%;
+}
+.jadwal {
+  width: 90%;
+  height: 104px;
+  color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  margin-top: 64px;
+  margin-left: 78px;
+  border-collapse: collapse;
+}
+.jadwal th {
+  background-color: #0e0e0e;
+  border-bottom: 1px solid white;
+  padding: 32px 40px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+.jadwal tr:nth-child(even) {
+  background-color: #4f4f4f;
+  font-size: 20px;
+}
+.jadwal tr {
+  font-size: 20px;
+}
+.jadwal td {
+  padding: 32px 40px;
+  border-top: 2px solid white;
+}
+.tempat-download {
+  width: 400px;
+  height: auto;
+  margin: 64px 78px;
+}
+.tempat-download p {
+  font-size: 24px;
+  color: #f4f4f4;
+  font-weight: bold;
+}
+.tempat-download button {
+  background-color: transparent;
+  border: 4px solid white;
+  font-size: 20px;
+  margin-top: 12px;
+  padding: 16px 32px;
+  color: #f4f4f4;
+  transition: 0.3s;
+}
+.tempat-download button:hover {
+  background-color: white;
+  color: #141414;
+}
+/*================================================================================= jadwal-End ==============*/
+/*================================================================== footer Start ======================*/
+.footer {
+  margin-top: 64px;
+  width: 100%;
+  height: 460px;
+  background-color: black;
+}
+.kelompok {
+  width: 500px;
+  padding-top: 32px;
+  margin-left: 40px;
+}
+.kelompok h4 {
+  font-size: 24px;
+  color: white;
+}
+.kelompok h5 {
+  font-size: 18px;
+  color: white;
+}
+.kelompok ul li {
+  list-style: none;
+}
+.kelompok p {
+  font-size: 16px;
+  color: white;
+  padding-bottom: 8px;
+}
+.footer .navlinks {
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 73%;
+  left: 25%;
+}
+.footer .navlinks ul {
+  display: flex;
+}
+.footer .navlinks ul li {
+  list-style: none;
+  padding-right: 40px;
+}
+.footer .navlinks ul li a {
+  text-decoration: none;
+  color: white;
+}

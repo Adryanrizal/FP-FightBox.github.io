@@ -1,0 +1,217 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: #141414;
+}
+a {
+  transition: 0.3s;
+}
+a:hover {
+  font-weight: bold;
+}
+/*================================================================== Navbar Start ======================*/
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 11;
+}
+.logo {
+  position: relative;
+  right: 14%;
+ 
+}
+.logo p {
+  font-weight: 800;
+  color: white;
+  font-size: 24px;
+}
+
+.navlinks {
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  left: 14%;
+  z-index: 10;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  padding-right: 40px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbtn {
+  background-color: transparent;
+  border: none;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 37px;
+  padding: 8px 24px;
+  margin-top: 8px;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.navbtn:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+/*================================================================================= Navbar-End ==============*/
+
+/*================================================================================= gambar-landing  ==============*/
+
+.gambar-landing {
+    width: 100%;
+    height: 400px;
+    margin-top: 32px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-image: url("images/Blog/Banner-Blog.jpg"); 
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+.gambar-landing h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+}
+
+/*================================================= gambar landing -End ==============*/
+/*================================================= konten blog  ==============*/
+article {
+    width: 1440px;
+    height: 800px;
+    border-radius: 3px;
+    margin-top: 120px;
+    clear: both;
+    align-content: center;
+}
+
+article p {
+    line-height: 1.5;  
+}
+article .konten {
+    width: 400px;
+    height: 720px;
+    margin: 40px;
+    float: right;
+    
+}
+
+article .judul {
+    margin-top: 32;
+}
+article .isi img {
+    float: left;
+  
+}
+
+article .konten img {
+    width: 440px;
+    height: 364px;
+    
+
+}
+article .judul{
+  color: white;
+}
+article .judul h3{
+  font-size: 24px;
+}
+article .judul p{
+  font-size: 16px;
+}
+
+.tombol button{
+  width: 200px;
+  height: 60px;
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 32px;
+  color: #141414;
+  transition: 0.3s;
+}
+
+.tombol button:hover{
+  background-color: black;
+  color: white;
+  border: 4px solid white;
+  
+}
+ 
+
+
+
+
+
+
+/*================================================= konten blog  ==============*/
+
+/*================================================================================= footer-start ==============*/
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+.kelompok {
+  width: 500px;
+  padding-top: 32px;
+  margin-left: 40px;
+}
+.kelompok h4 {
+  font-size: 24px;
+  color: white;
+}
+.kelompok h5 {
+  font-size: 18px;
+  color: white;
+}
+.kelompok ul li {
+  list-style: none;
+
+}
+.kelompok p {
+  font-size: 16px;
+  color: white;  
+  padding-bottom: 8px;
+}
+.footer .navlinks {
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 85%;
+  left: 25%;
+}
+.footer .navlinks ul {
+  display: flex;
+}
+.footer .navlinks ul li {
+  list-style: none;
+  padding-right: 40px;
+}
+.footer .navlinks ul li a {
+  text-decoration: none;
+  color: white;
+}

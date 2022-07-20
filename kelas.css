@@ -1,0 +1,356 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: #141414;
+}
+a {
+  transition: 0.3s;
+}
+a:hover {
+  font-weight: bold;
+}
+/*================================================================== Navbar Start ======================*/
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 11;
+}
+.logo {
+  position: relative;
+  right: 14%;
+ 
+}
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+.logo p {
+  font-weight: 800;
+  color: white;
+  font-size: 24px;
+}
+
+.navlinks {
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  left: 14%;
+  z-index: 10;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  padding-right: 40px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbtn {
+  background-color: transparent;
+  border: none;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 37px;
+  padding: 8px 24px;
+  margin-top: 8px;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.navbtn:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+/*================================================================================= Navbar-End ==============*/
+
+/*================================================================================= gambar-landing  ==============*/
+
+.gambar-landing {
+    width: 100%;
+    height: 400px;
+    margin-top: 32px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-image: url("images/Blog/Banner-Blog.jpg"); 
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+.gambar-landing h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+}
+
+/*================================================= gambar landing -End ==============*/
+/*================================================= konten blog  ==============*/
+.kickboxing-container{
+  width: 100vw;
+  height: auto;
+  margin: 200px 0px;
+}
+.kickboxing{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.foto-kickboxing{
+  background-image: url("images/Kelas/KickBoxing.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 980px; height: 400px;
+  position: relative;
+}
+.text-kickboxing{
+  width: 460px;
+  height: auto;
+  margin-left: 40px;
+  padding-right: 40px;
+}
+.text-kickboxing p{
+  margin-top: 24px;
+  line-height: 180%;
+  letter-spacing: 9%;
+  color: white;
+  font-size: 16px;
+
+}
+.text-kickboxing h2{
+  font-size: 48px;
+  color: white;
+}
+.text-kickboxing button{
+  font-size: 18px;
+  margin-top: 40px;
+  color: black;
+  padding: 16px 40px;
+  background-color: white;
+  border: 2px solid white;
+  font-family: "Inter", sans-serif;
+  transition: 0.3s;
+}
+.text-kickboxing button:hover{
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+}
+/*================================================= konten blog  ==============*/
+/*================================================= 2 =========================*/
+.karate-container{
+  width: 100vw;
+  height: auto;
+  margin: 200px 0px;
+}
+.karate{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.text-karate{
+  width: 460px;
+  height: auto;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.text-karate p{
+  margin-top: 24px;
+  line-height: 180%;
+  letter-spacing: 9%;
+  color: white;
+  font-size: 16px;
+
+}
+.text-karate h2{
+  font-size: 48px;
+  color: white;
+}
+.foto-karate{
+  background-image: url("images/Kelas/Karate.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 980px; height: 400px;
+  position: relative;
+}
+.text-karate button{
+  font-size: 18px;
+  margin-top: 40px;
+  color: black;
+  padding: 16px 40px;
+  background-color: white;
+  border: 2px solid white;
+  font-family: "Inter", sans-serif;
+  transition: 0.3s;
+}
+.text-karate button:hover{
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+}
+/*================================================= 2 end =====================*/
+/*================================================= 3 =========================*/
+.muaythai-container{
+  width: 100vw;
+  height: auto;
+  margin: 200px 0px;
+}
+.muaythai{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.foto-muaythai{
+  background-image: url("images/Kelas/Muay Thai.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 980px; height: 400px;
+  position: relative;
+}
+.text-muaythai{
+  width: 460px;
+  height: auto;
+  margin-left: 40px;
+  padding-right: 40px;
+}
+.text-muaythai p{
+  margin-top: 24px;
+  line-height: 180%;
+  letter-spacing: 9%;
+  color: white;
+  font-size: 16px;
+
+}
+.text-muaythai h2{
+  font-size: 48px;
+  color: white;
+}
+.text-muaythai button{
+  font-size: 18px;
+  margin-top: 40px;
+  color: black;
+  padding: 16px 40px;
+  background-color: white;
+  border: 2px solid white;
+  font-family: "Inter", sans-serif;
+  transition: 0.3s;
+}
+.text-muaythai button:hover{
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+}
+/*================================================= 3 end =====================*/
+/*================================================= 4 =========================*/
+.judo-container{
+  width: 100vw;
+  height: auto;
+  margin: 200px 0px;
+}
+.judo{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.text-judo{
+  width: 460px;
+  height: auto;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.text-judo p{
+  margin-top: 24px;
+  line-height: 180%;
+  letter-spacing: 9%;
+  color: white;
+  font-size: 16px;
+
+}
+.text-judo h2{
+  font-size: 48px;
+  color: white;
+}
+.foto-judo{
+  background-image: url("images/Kelas/Judo.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 980px; height: 400px;
+  position: relative;
+}
+.text-judo button{
+  font-size: 18px;
+  margin-top: 40px;
+  color: black;
+  padding: 16px 40px;
+  background-color: white;
+  border: 2px solid white;
+  font-family: "Inter", sans-serif;
+  transition: 0.3s;
+}
+.text-judo button:hover{
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+}
+/*================================================= 4 end =====================*/
+/*================================================================================= footer-start ==============*/
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+.kelompok {
+  width: 500px;
+  padding-top: 32px;
+  margin-left: 40px;
+}
+.kelompok h4 {
+  font-size: 24px;
+  color: white;
+}
+.kelompok h5 {
+  font-size: 18px;
+  color: white;
+}
+.kelompok ul li {
+  list-style: none;
+
+}
+.kelompok p {
+  font-size: 16px;
+  color: white;  
+  padding-bottom: 8px;
+}
+.footer .navlinks {
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 85%;
+  left: 25%;
+}
+.footer .navlinks ul {
+  display: flex;
+}
+.footer .navlinks ul li {
+  list-style: none;
+  padding-right: 40px;
+}
+.footer .navlinks ul li a {
+  text-decoration: none;
+  color: white;
+}

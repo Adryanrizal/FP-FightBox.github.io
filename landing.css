@@ -1,0 +1,764 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: #141414;
+}
+
+a {
+  transition: 0.3s;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+}
+
+/*================================================================== Navbar Start ======================*/
+.landing-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.sidebar{
+  background-color: #212121;
+  width: 96px;
+  height: 1028px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.sidebar ul{
+  -webkit-transform: rotate(-90deg);
+}
+.sidebar li{
+  display: flex;
+  width: 440px;
+  justify-content: space-evenly;
+}
+.sidebar a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.landing{
+  width: 100%;
+  height: 1028px;
+}
+.navbar{
+  width: 93%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9;
+  position: relative;
+}
+.logo a{
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 40px;
+}
+.navlinks ul{
+  list-style: none;
+}
+.navlinks ul li a{
+  color: white;
+  text-decoration: none;
+  padding-right:40px;
+  font-size: 16px;
+}
+.navlinks button{
+  font-size: 16px;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 14px;
+  border: 2px solid white;
+  background-color: transparent;
+  transition: 0.3s;
+  font-family: "Inter", sans-serif;
+}
+.navlinks button:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  font-family: "Inter", sans-serif;
+}
+.video-landing{
+  width: 100vw;
+  height: 1028px;
+  position: relative;
+  bottom: 24%;
+  
+}
+.video-landing video{
+  height: 100%;
+  width: 100vw;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+.video-landing h1{
+  font-size: 64px;
+  color: white;
+  background-color: transparent;
+  position: relative;
+  top: 50%;
+  font-weight: bold;
+  margin-left: 40px;
+}
+.video-landing button{
+  background-color: white;
+  font-size: 18px;
+  padding: 18px 24px;
+  border: 4px solid white;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  transition: 0.3s;
+}
+.video-landing button:hover{
+  background-color:#141414;
+  color: white;
+  border: 4px solid white;
+}
+.video-landing a{
+  position: relative;
+  bottom: 50%;
+  margin-left: 40px;
+}
+.black-bar{
+  width: 100vw;
+  height: 140px;
+  background-color: #212121;
+  position: relative;
+  bottom: 20%;
+  display: flex;
+}
+.black-bar a{
+  margin-top: 45px;
+  position: relative;
+  right: 2.7%;
+}
+.black-bar .foto{
+  width: 400px;
+  height: 220px;
+  background-image: url("images/Landing/Video-BlackBar.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  bottom: 57%;
+  transition: 0.3s;
+}
+.black-bar .foto:hover{
+  background-image: url("images/Landing/Video-blackbar-hover.png");
+  width: 480px;
+  height: 270px;
+  position: relative;
+  bottom: 110%;
+}
+.bio{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.bio p:first-child{
+  font-size: 20px;
+  color: white;
+}
+
+.bio p:nth-child(even){
+  font-size: 16px;
+  color: gray;
+}
+
+/*================================================================================= Content-End ==============*/
+/*================================================================================= Secon Section-Start ==============*/
+.second-container{
+  width: 100vw;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+}
+.second_section {
+  width: 1440px;
+  height: 800px;
+  margin: 180px 120px;
+  display: flex;
+}
+
+.about {
+  width: 400px;
+  height: 800px;
+  color: white;
+  margin-top: 40px;
+}
+.about h1 {
+  font-size: 48px;
+}
+.about p {
+  font-size: 16px;
+  line-height: 155%;
+  letter-spacing: 3%;
+}
+.lokasibtn {
+  background-color: transparent;
+  border: none;
+  margin-top: 40px;
+  position: relative;
+  left: -6px;
+  color: white;
+  font-size: 18px;
+  border: 4px solid white;
+  padding: 12px 40px;
+  font-family: "Inter", sans-serif;
+  transition: 0.3s;
+}
+.lokasibtn:hover {
+  background-color: white;
+  color: black;
+}
+.daftarbtn {
+  background-color: transparent;
+  border: none;
+  margin-top: 40px;
+  position: relative;
+  left: -6px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  border: 4px solid white;
+  padding: 12px 40px;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+.daftarbtn:hover {
+  background-color: white;
+  color: black;
+}
+.second-image-section {
+  width: 70%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+}
+.foto-satu {
+  width: 325px;
+  height: 720px;
+  margin-left: 128px;
+}
+.foto-dua {
+  width: 325px;
+  height: 720px;
+  margin-left: 20px;
+}
+/*================================================================================= Second-End ==============*/
+/*================================================================================= third-start ==============*/
+.third-section {
+  width: 100%;
+  height: 800px;
+  margin: 180px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container-satu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 325px;
+  height: 720px;
+  margin-right: 20px;
+  background-image: url("images/Landing/boxing-gray.jpg");
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+.image-container-satu:hover {
+  filter: drop-shadow(0px -3px 100px rgba(255, 255, 255, 0.9));
+  width: 356px;
+  height: 800px;
+  background-size: cover;
+  background-image: url("images/Landing/Tiga-satu-hover.jpg");
+}
+.image-container-dua:hover {
+  filter: drop-shadow(0px -3px 100px rgba(255, 255, 255, 0.9));
+  width: 356px;
+  height: 800px;
+  background-size: cover;
+  background-image: url("images/Landing/Tiga-dua-hoverjpg.jpg");
+}
+.image-container-tiga:hover {
+  filter: drop-shadow(0px -3px 100px rgba(255, 255, 255, 0.9));
+  width: 356px;
+  height: 800px;
+  background-size: cover;
+  background-image: url("images/Landing/tiga-tiga-hover.jpg");
+}
+.image-container-empat:hover {
+  filter: drop-shadow(0px -3px 100px rgba(255, 255, 255, 0.9));
+  width: 356px;
+  height: 800px;
+  background-size: cover;
+  background-image: url("images/Landing/tiga-empat-hover.jpg");
+}
+
+.image-container-satu p {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+}
+.image-container-dua {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 325px;
+  height: 720px;
+  margin-right: 20px;
+  background-image: url("images/Landing/Karate-gray.jpg");
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+.image-container-dua p {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+}
+.image-container-tiga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 325px;
+  height: 720px;
+  margin-right: 20px;
+  background-image: url("images/Landing/Muay\ Thai-\ gray.jpg");
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+.image-container-tiga p {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+}
+.image-container-empat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 325px;
+  height: 720px;
+  margin-right: 20px;
+  background-image: url("images/Landing/Judo-gray.jpg");
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+.image-container-empat p {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+}
+
+.tiga-dua {
+  width: 325px;
+  height: 720px;
+  padding-right: 20px;
+}
+.tiga-tiga {
+  width: 325px;
+  height: 720px;
+  padding-right: 20px;
+}
+.tiga-empat {
+  width: 325px;
+  height: 720px;
+}
+/*================================================================================= third-End ==============*/
+/*================================================================================= Fourth-start ==============*/
+.fourth-container{
+  display: flex;
+  justify-content: center;
+}
+.fourth-section {
+  width: 1440px;
+  height: auto;
+  margin-left: 40px;
+}
+.header-fourth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+.header-fourth img {
+  width: 712px;
+  height: 20px;
+}
+.header-fourth h1 {
+  font-size: 48px;
+  color: #f4f4f4;
+}
+
+.member-card {
+  width: 740px;
+  height: auto;
+}
+.beginner {
+  width: 648px;
+  height: 184px;
+  background-color: transparent;
+  color: #f4f4f4;
+  border: 4px solid white;
+  padding: 16px 32px;
+  transition: 0.3s;
+}
+.beginner:hover {
+  background-color: #f4f4f4;
+  color: black;
+}
+.intermediate:hover {
+  background-color: #f4f4f4;
+  color: black;
+}
+.advanced:hover {
+  background-color: #f4f4f4;
+  color: black;
+}
+.beginner h2 {
+  font-size: 32px;
+}
+.kelas {
+  font-size: 24px;
+  padding-top: 20px;
+}
+.beginner-child {
+  display: flex;
+  justify-content: space-between;
+}
+.harga {
+  display: flex;
+  align-items: center;
+}
+.harga p:first-child {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 12px;
+  padding-right: 8px;
+}
+
+.intermediate {
+  margin-top: 20px;
+  width: 648px;
+  height: 184px;
+  background-color: transparent;
+  color: #f4f4f4;
+  border: 4px solid white;
+  padding: 16px 32px;
+  transition: 0.3s;
+}
+.intermediate h2 {
+  font-size: 32px;
+}
+.kelas {
+  font-size: 24px;
+  padding-top: 20px;
+}
+.intermediate-child {
+  display: flex;
+  justify-content: space-between;
+}
+.harga {
+  display: flex;
+  align-items: center;
+}
+.harga p:first-child {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 12px;
+  padding-right: 8px;
+}
+
+.advanced {
+  margin-top: 20px;
+  width: 648px;
+  height: 184px;
+  background-color: transparent;
+  color: #f4f4f4;
+  border: 4px solid white;
+  padding: 16px 32px;
+  transition: 0.3s;
+}
+.advanced h2 {
+  font-size: 32px;
+}
+.kelas {
+  font-size: 24px;
+  padding-top: 20px;
+}
+.advanced-child {
+  display: flex;
+  justify-content: space-between;
+}
+.harga {
+  display: flex;
+  align-items: center;
+}
+.harga p:first-child {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 12px;
+  padding-right: 8px;
+}
+.fourth-content {
+  display: flex;
+  margin-top: 64px;
+}
+.image-container {
+  width: 400px;
+  height: 400px;
+}
+.image-fourth {
+  background-image: url("images/Landing//fourth-image.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 700px;
+  height: 711px;
+  border: 4px solid white;
+  box-sizing: border-box;
+}
+/*================================================================================= Fourth-End ==============*/
+/*================================================================================= Fifth-start ==============*/
+.fifth-container{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.fifth-section {
+  width: 1440px;
+  height: auto;
+  margin-left: 40px;
+  margin-top: 180px;
+}
+.fifth-section h1 {
+  color: #f4f4f4;
+  font-size: 48px;
+  text-align: center;
+}
+.fifth-content {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  height: 800px;
+}
+.lima-satu {
+  background-image: url("images/Landing/Lima-satu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 325px;
+  height: 720px;
+  transition: 0.3s;
+}
+.lima-dua {
+  background-image: url("images/Landing/Lima-dua.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 325px;
+  height: 720px;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+.lima-tiga {
+  background-image: url("images/Landing/Lima-tiga.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 325px;
+  height: 720px;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+.lima-empat {
+  background-image: url("images/Landing/Lima-empat.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 325px;
+  height: 720px;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+.text-fifth {
+  position: relative;
+  top: 70%;
+}
+.text-fifth p:first-child {
+  font-size: 32px;
+  font-weight: bold;
+  color: #f4f4f4;
+  text-align: center;
+  margin-top: 112px;
+}
+.text-fifth p {
+  font-size: 16px;
+  color: #f4f4f4;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.lima-satu:hover {
+  width: 365px;
+  height: 820px;
+}
+.lima-dua:hover {
+  width: 365px;
+  height: 820px;
+}
+.lima-tiga:hover {
+  width: 365px;
+  height: 820px;
+}
+.lima-empat:hover {
+  width: 365px;
+  height: 820px;
+}
+/*================================================================================= Fifth-End ==============*/
+/*================================================================================= Sixth-start ==============*/
+.sixth-container{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.sixth-section {
+  margin-top: 260px;
+}
+.sixth-content {
+  background-image: url("images/Landing/sixth.jpg");
+  width: 1600px;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sixth-content h1 {
+  padding-top: 180px;
+  text-align: center;
+  position: relative;
+  color: white;
+  font-size: 64px;
+}
+
+.sixth-content button {
+  position: relative;
+  left: 42%;
+  top: 6%;
+  width: 220px;
+  height: 64px;
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #141414;
+  transition: 0.3s;
+}
+.sixth-content button:hover {
+  background-color: black;
+  color: white;
+  border: 4px solid white;
+}
+/*================================================================================= sixth-End ==============*/
+/*================================================================================= seventh-start ==============*/
+.seventh-container{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.seventh-section {
+  width: 1440px;
+  height: auto;
+  margin-right: 20px;
+}
+#map {
+  width: 100%;
+  height: 556px;
+  margin-top: 64px;
+
+}
+#map iframe {
+  width: 100%;
+  height: 556px;
+}
+.seventh-section .blackbar {
+  margin-top: 20px;
+  height: 200px;
+}
+
+
+/*================================================================================= seventh-End ==============*/
+/*================================================================================= footer-start ==============*/
+.footer-container{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  width: 1600px;
+  height: 400px;
+  background-color: black;
+}
+.kelompok {
+  width: 500px;
+  padding-top: 32px;
+  margin-left: 40px;
+}
+.kelompok h4 {
+  font-size: 24px;
+  color: white;
+}
+.kelompok h5 {
+  font-size: 18px;
+  color: white;
+}
+.kelompok ul li {
+  list-style: none;
+
+}
+.kelompok p {
+  font-size: 16px;
+  color: white;  
+  padding-bottom: 8px;
+}
+.footer .navlinks {
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 85%;
+  left: 25%;
+}
+.footer .navlinks ul {
+  display: flex;
+}
+.footer .navlinks ul li {
+  list-style: none;
+  padding-right: 40px;
+}
+.footer .navlinks ul li a {
+  text-decoration: none;
+  color: white;
+}
